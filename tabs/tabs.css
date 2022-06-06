@@ -1,0 +1,38 @@
+.title {
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 600;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+/* .title + .title {
+    margin-left: 10px;
+} */
+
+.title:hover {
+    background-color: #b9b7b7;
+}
+
+.title-active {
+    background-color: #909090;
+    border: 1px solid #000;
+}
+
+.body {
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: aliceblue;
+    border: 1px solid rgb(222, 230, 238);
+}
+
+.title-container {
+    display: flex;
+    gap: 10px;
+}
+
+.show {
+    display: block;
+}
